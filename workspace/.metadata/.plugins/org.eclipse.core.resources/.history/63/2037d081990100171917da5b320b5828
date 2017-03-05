@@ -1,0 +1,13 @@
+package string;
+
+public class Print_all_the_duplicates_in_the_input_string {
+public static void main(String[] args) {
+	String s ="test String";
+	char[] a=s.toCharArray();
+	int l =s.length();
+	int i,j;
+	for(i=0;i<=l-1;i++){
+		
+	}
+}
+}

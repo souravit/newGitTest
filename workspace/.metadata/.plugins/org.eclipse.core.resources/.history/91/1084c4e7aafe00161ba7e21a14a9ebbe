@@ -1,0 +1,8 @@
+package string;
+
+public class Return_maximum_occurring_character_in_the_input_string {
+String a="souravsingh";
+char[] s=a.toCharArray();
+int i,j;
+for(i=0;i<a/le)
+}

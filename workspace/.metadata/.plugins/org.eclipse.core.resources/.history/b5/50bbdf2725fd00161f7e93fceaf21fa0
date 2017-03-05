@@ -1,0 +1,25 @@
+package string;
+
+public class Longest_Palindromic_Substring {
+	public static void main(String[] args) {
+		String s="forgeeksskeegfor";
+		char[] a=s.toCharArray();
+		int l,b,e,m,i,c = 0;
+		l=s.length();
+		b=0;
+		e=l;
+		m=(b+e)/2;
+		for(i=0;i<m;i++){
+			b++;
+			e--;
+			if(a[b]==a[e]){
+				c++;
+			}else{
+				c=0;
+			}
+			
+		}
+		
+		}
+	}
+

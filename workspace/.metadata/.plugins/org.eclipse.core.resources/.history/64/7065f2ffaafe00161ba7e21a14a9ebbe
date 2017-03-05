@@ -1,0 +1,26 @@
+package string;
+
+public class Return_maximum_occurring_character_in_the_input_string {
+	public static void main(String[] args) {
+		String a="souravsingh";
+		char[] s=a.toCharArray();
+		int l = a.length();
+		int i,j,c;
+		for(i=0;i<l;i++){
+			for(j=i+1;i<=l;j++){
+				if(i<l && s[i]==s[j]){
+					break;
+				}
+					if(s[i]==s[j]){
+						c++;
+						
+					}
+					if(j==l-1){
+						System.out.println("");
+				}
+			}
+		}
+	}
+
+}
+}
